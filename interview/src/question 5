@@ -1,0 +1,4 @@
+SELECT players.Name, scores.Sport, scores.Score as "Total Score"
+FROM players
+INNER JOIN scores
+ON players.Player_no=scores.Player_no;

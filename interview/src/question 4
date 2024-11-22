@@ -1,0 +1,2 @@
+I would do place PreAuthorize at Class level instead of method level.
+Either that or I would add it in Spring XML configuration file
